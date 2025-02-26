@@ -8,6 +8,8 @@ export default defineConfig({
   base: '/Besseferism/',
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
   },
+  resolve: {
+    extensions: ['.js', '.jsx', '.json']
+  }
 })
